@@ -1,0 +1,7 @@
+div {
+  background-color: red;
+  background-image: url(./Los-Angeles-Lakers-Logo.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
