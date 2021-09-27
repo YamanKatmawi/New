@@ -4,7 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
-    <title>Document</title>
+    <title>HTML</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Book</h1>
+    <p>This is my Book</p>
+    <div>
+      <label>UserName</label>
+      <input
+        type="text"
+        name=""
+        id=""
+        required
+        placeholder="UserName"
+        name="user"
+        value="Yaman"
+      />
+    </div>
+    <br />
+    <div>
+      <label>Password</label>
+      <input
+        type="password"
+        name=""
+        id=""
+        required
+        placeholder="password"
+        name="Password"
+        minlength="10"
+      />
+    </div>
+    <br />
+    <div>
+      <label>Email</label>
+      <input type="Email" required placeholder="Email" name="Email" />
+    </div>
+    <br />
+    <div>
+      <label for="num">Number</label>
+      <input id="num" type="Number" name="Number" min="10" max="20" step="2" />
+    </div>
+    <br />
+    <hr />
+    <!-- Radio you choose only one thing -->
+    <div>
+      <input id="win" type="radio" name="os" value="windows" />
+      <label for="win">Windows</label>
+    </div>
+    <div>
+      <input id="lin" type="radio" name="os" value="linus" />
+      <label for="lin">linus</label>
+    </div>
+    <div>
+      <input id="mac" type="radio" name="os" value="Mac" />
+      <label for="mac">Mac</label>
+    </div>
+    <br />
+    <hr />
+    <!-- Checkbox you can choose more thing -->
+    <div>
+      <input id="win1" type="checkbox" name="os" value="windows" />
+      <label for="win1">Windows</label>
+    </div>
+    <div>
+      <input id="lin1" type="checkbox" name="os" value="linus" />
+      <label for="lin1">linus</label>
+    </div>
+    <div>
+      <input id="mac1" type="checkbox" name="os" value="Mac" />
+      <label for="mac1">Mac</label>
+    </div>
+    <br />
+    <input type="submit" value="save" />
+  </body>
 </html>
